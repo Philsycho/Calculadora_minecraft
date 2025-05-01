@@ -4,22 +4,30 @@ html {
     padding: 0px;
 }
 
+.lista-receitas{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
 .select-itens-craft {
     display: flex;
     flex-direction: column;  /* Coloca os elementos em coluna (um embaixo do outro) */
     align-items: center;     /* Centraliza horizontalmente os filhos */
     gap: 8px;                /* Espaço entre os elementos */
     padding: 15px;
-    background: #8B8B8B;
-    border-radius: 5px;
+    background: #C6C6C6;
+    border-radius: 0px;
+    border: 2px solid;
+    border-color: #DBDBDB #5B5B5B #5B5B5B #DBDBDB;
     width: fit-content;
 }
 
 .select-itens-craft .item-box {
     padding: 5px;
-    background-color: #C6C6C6;
+    background-color: #8B8B8B;
     border: 2px solid;
-    border-color: #DBDBDB #5B5B5B #5B5B5B #DBDBDB;
+    border-color: #5B5B5B #DBDBDB #DBDBDB #5B5B5B;
     width: fit-content;
 }
 
