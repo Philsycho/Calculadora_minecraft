@@ -1,0 +1,53 @@
+/* Restart da página */
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.select-itens-craft {
+    display: flex;
+    flex-direction: column;  /* Coloca os elementos em coluna (um embaixo do outro) */
+    align-items: center;     /* Centraliza horizontalmente os filhos */
+    gap: 8px;                /* Espaço entre os elementos */
+    padding: 15px;
+    background: #8B8B8B;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.select-itens-craft .item-box {
+    padding: 5px;
+    background-color: #C6C6C6;
+    border: 2px solid;
+    border-color: #DBDBDB #5B5B5B #5B5B5B #DBDBDB;
+    width: fit-content;
+}
+
+.item-box img {
+    width: auto;
+    height: 45px;
+    image-rendering: pixelated;
+}
+
+.item-box button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.select-itens-craft input {
+    width: 5ch;
+}
+
+/* Fixação do footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222; /* ou qualquer cor que quiser */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

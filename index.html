@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minecraft Calculadora</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="src/style/style.css">
+        <title>Minecraft Calculadora</title>
+        <link rel="icon" type="image/png" href="src/MC-calculadora.webp">
+    </head>
+
+    <body>
+        <div>
+            <h1>Minecraft calculadora</h1>
+        </div>
+        <!-- Sessão para escolher os produtos. -->
+        <div>
+            <label>Item para craftar:</label>
+        </div>
+        <div class="select-itens-craft">
+            <div class="item-box">
+                <button onclick="incrementar(this)">
+                    <img src="src/img/ferramentas/Wooden_Pickaxe_JE3_BE3.webp" alt="Picareta de Madeira">
+                </button>
+            </div>
+            <label>Picareta de Madeira </label>
+            <input type="number" min="0" max="999">
+        </div>
+        
+        <!-- Sessão para mostrar os resultados. -->
+        <div>
+
+        </div>
+        <footer>
+            <div>
+                🎃 byPhilsycho
+            </div>
+        </footer>
+        <script src="src/scripts/script.js"></script>
+    </body>
 </html>

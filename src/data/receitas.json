@@ -1,0 +1,31 @@
+[
+  {
+    "id": "oak_planks",
+    "nome-br": "Tabuas de madeira",
+    "quantidade": 4,
+    "mesa": "inventario",
+    "ingredientes": [
+      {"item": "oak_log", "quantidade": 1}
+    ]
+  },
+  {
+    "id": "wooden_pickaxe",
+    "nome-br": "Picareta de Madeira",
+    "quantidade": 1,
+    "mesa": "crafting_table",
+    "ingredientes": [
+      { "item": "oak_planks", "quantidade": 3 },
+      { "item": "stick", "quantidade": 2 }
+    ]
+  },
+  {
+    "id": "stone_pickaxe",
+    "nome-br": "Picareta de Pedra",
+    "quantidade": 1,
+    "mesa": "crafting_table",
+    "ingredientes": [
+      { "item": "cobblestone", "quantidade": 3 },
+      { "item": "stick", "quantidade": 2 }
+    ]
+  }
+]

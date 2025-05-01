@@ -1,0 +1,43 @@
+[
+  {
+    "id": "oak_log",
+    "nome": "Tronco de Carvalho",
+    "alt": "Tronco de Carvalho",
+    "tipo": "bloco",
+    "imagem": "",
+    "stackMax": 64
+  },
+  {
+    "id": "oak_planks",
+    "nome": "Tábuas de carvalho",
+    "alt": "Tábuas de carvalho",
+    "tipo": "bloco",
+    "imagem": "src/img/blocos/planks.webp",
+    "stackMax": 64
+  },
+  {
+    "id": "stick",
+    "nome": "Graveto",
+    "alt": "Graveto",
+    "tipo": "item",
+    "imagem": "src/img/itens/stick.webp",
+    "stackMax": 64
+  },
+  {
+    "id": "wooden_pickaxe",
+    "nome": "Picareta de Madeira",
+    "alt": "Picareta de Madeira",
+    "tipo": "ferramenta",
+    "imagem": "src/img/ferramentas/Wooden_Pickaxe_JE3_BE3.webp",
+    "stackMax": 1
+  },
+  {
+    "id": "cobblestone",
+    "nome": "Pedregulho",
+    "alt": "Pedregulho",
+    "tipo": "bloco",
+    "imagem": "src/img/blocos/cobblestone.webp",
+    "stackMax": 64
+  }
+]
+  
