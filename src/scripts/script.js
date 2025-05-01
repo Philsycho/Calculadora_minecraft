@@ -12,13 +12,3 @@ function incrementar(botao) {
         input.value = atual + 1;
     }
 }
-
-/**
- * 
- * Função para exibir as opções de receitas no html
- * 
- */
-
-function exibeOpcoes() {
-    
-}
