@@ -4,6 +4,8 @@ html {
     padding: 0px;
 }
 
+/* Sessão para a seleção dos itens */
+
 .lista-receitas{
     display: flex;
     flex-direction: row;
@@ -17,7 +19,6 @@ html {
     gap: 8px;                /* Espaço entre os elementos */
     padding: 15px;
     background: #C6C6C6;
-    border-radius: 0px;
     border: 2px solid;
     border-color: #DBDBDB #5B5B5B #5B5B5B #DBDBDB;
     width: fit-content;
@@ -46,6 +47,19 @@ html {
 
 .select-itens-craft input {
     width: 5ch;
+}
+
+/* Sessão para o resultado da seleção dos itens */
+.lista-recursos {
+    margin-top: 30px;
+}
+
+.resultado-itens-craft {
+    padding: 15px;
+    background: #C6C6C6;
+    border: 2px solid;
+    border-color: #DBDBDB #5B5B5B #5B5B5B #DBDBDB;
+    min-height: 150px;
 }
 
 /* Fixação do footer */

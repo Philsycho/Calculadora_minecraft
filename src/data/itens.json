@@ -1,43 +1,83 @@
 [
   {
     "id": "oak_log",
-    "nome": "Tronco de Carvalho",
+    "nome-br": "Tronco de Carvalho",
     "alt": "Tronco de Carvalho",
-    "tipo": "bloco",
+    "tipo_id_id": 2,
     "imagem": "src/img/oak_log.webp",
     "stackMax": 64
   },
   {
     "id": "oak_planks",
-    "nome": "Tábuas de carvalho",
+    "nome-br": "Tábuas de carvalho",
     "alt": "Tábuas de carvalho",
-    "tipo": "bloco",
+    "tipo_id_id": 2,
     "imagem": "src/img/oak_planks.webp",
     "stackMax": 64
   },
   {
     "id": "stick",
-    "nome": "Graveto",
+    "nome-br": "Graveto",
     "alt": "Graveto",
-    "tipo": "item",
+    "tipo_id_id": 3,
     "imagem": "src/img/stick.webp",
     "stackMax": 64
   },
   {
+    "id": "cobblestone",
+    "nome-br": "Pedregulho",
+    "alt": "Pedregulho",
+    "tipo_id_id": 2,
+    "imagem": "src/img/cobblestone.png",
+    "stackMax": 64
+  },
+  {
     "id": "wooden_pickaxe",
-    "nome": "Picareta de Madeira",
+    "nome-br": "Picareta de Madeira",
     "alt": "Picareta de Madeira",
-    "tipo": "ferramenta",
+    "tipo_id_id": 4,
     "imagem": "src/img/wooden_pickaxe.webp",
     "stackMax": 1
   },
   {
-    "id": "cobblestone",
-    "nome": "Pedregulho",
-    "alt": "Pedregulho",
-    "tipo": "bloco",
-    "imagem": "src/img/cobblestone.png",
-    "stackMax": 64
+    "id": "stone_pickaxe",
+    "nome-br": "Picareta de Pedra",
+    "alt": "Picareta de Pedra",
+    "tipo_id_id": 4,
+    "imagem": "src/img/stone_pickaxe.webp",
+    "stackMax": 1
+  },
+  {
+    "id": "iron_pickaxe",
+    "nome-br": "Picareta de Ferro",
+    "alt": "Picareta de Ferro",
+    "tipo_id_id": 4,
+    "imagem": "src/img/iron_pickaxe.webp",
+    "stackMax": 1
+  },
+  {
+    "id": "golden_pickaxe",
+    "nome-br": "Picareta de Ouro",
+    "alt": "Picareta de Ouro",
+    "tipo_id_id": 4,
+    "imagem": "src/img/golden_pickaxe.webp",
+    "stackMax": 1
+  },
+  {
+    "id": "diamong_pickaxe",
+    "nome-br": "Picareta de Diamante",
+    "alt": "Picareta de Diamante",
+    "tipo_id_id": 4,
+    "imagem": "src/img/diamond_pickaxe.webp",
+    "stackMax": 1
+  },
+  {
+    "id": "netherite_pickaxe",
+    "nome-br": "Picareta de Netherita",
+    "alt": "Picareta de Netherita",
+    "tipo_id_id": 4,
+    "imagem": "src/img/netherite_pickaxe.webp",
+    "stackMax": 1
   }
 ]
   

@@ -1,7 +1,5 @@
-/*
- * 
- * Função para incrementar a quantidade no input do html.
- * 
+/* 
+ * Função para incrementar a quantidade no input do html. 
  */
 
 function incrementar(botao) {

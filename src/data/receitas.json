@@ -2,6 +2,7 @@
   {
     "id": "oak_planks",
     "nome-br": "Tabuas de madeira",
+    "alt": "Tabuas de madeira",
     "quantidade": 4,
     "mesa": "inventario",
     "ingredientes": [
@@ -11,6 +12,7 @@
   {
     "id": "wooden_pickaxe",
     "nome-br": "Picareta de Madeira",
+    "alt": "Picareta de Madeira",
     "quantidade": 1,
     "mesa": "crafting_table",
     "ingredientes": [
@@ -21,10 +23,56 @@
   {
     "id": "stone_pickaxe",
     "nome-br": "Picareta de Pedra",
+    "alt": "Picareta de Pedra",
     "quantidade": 1,
     "mesa": "crafting_table",
     "ingredientes": [
       { "item": "cobblestone", "quantidade": 3 },
+      { "item": "stick", "quantidade": 2 }
+    ]
+  },
+  {
+    "id": "iron_pickaxe",
+    "nome-br": "Picareta de Ferro",
+    "alt": "Picareta de Ferro",
+    "quantidade": 1,
+    "mesa": "crafting_table",
+    "ingredientes": [
+      { "item": "iron_ingot", "quantidade": 3 },
+      { "item": "stick", "quantidade": 2 }
+    ]
+  },
+  {
+    "id": "golden_pickaxe",
+    "nome-br": "Picareta de Ouro",
+    "alt": "Picareta de Ouro",
+    "quantidade": 1,
+    "mesa": "crafting_table",
+    "ingredientes": [
+      { "item": "gold_ingot", "quantidade": 3 },
+      { "item": "stick", "quantidade": 2 }
+    ]
+  },
+  {
+    "id": "diamong_pickaxe",
+    "nome-br": "Picareta de Diamante",
+    "alt": "Picareta de Diamante",
+    "quantidade": 1,
+    "mesa": "crafting_table",
+    "ingredientes": [
+      { "item": "diamond", "quantidade": 3 },
+      { "item": "stick", "quantidade": 2 }
+    ]
+  },
+  {
+    "id": "netherite_pickaxe",
+    "nome-br": "Picareta de Netherita",
+    "alt": "Picareta de Diamante",
+    "quantidade": 1,
+    "mesa": "crafting_table",
+    "ingredientes": [
+      { "item": "netherite_upgrade", "quantidade": 1},
+      { "item": "netherite_ingot", "quantidade": 1 },
       { "item": "stick", "quantidade": 2 }
     ]
   }
